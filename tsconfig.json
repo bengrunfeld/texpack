@@ -4,7 +4,6 @@
         "allowJs": true,
         "target": "es5",
         "lib": ["es2018", "dom"],
-        "baseUrl": "src",
         "esModuleInterop": true
     },
     "include": [
