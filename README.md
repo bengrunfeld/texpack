@@ -1,8 +1,8 @@
-# Expack - Express and Webpack Boilerplate
+# Texpack - TypeScript, Express and Webpack Boilerplate
 
-Expack is the bare-bones Express and Webpack boilerplate with ES6+ babel transpilation, ESLint linting, Hot Module Reloading, and Jest test framework enabled.
+Texpack is the bare-bones Express and Webpack boilerplate with ES6+ babel transpilation, ESLint linting, Hot Module Reloading, and Jest test framework enabled.
 
-Expack has two build modes: Development and Production.
+Texpack has two build modes: Development and Production.
 
 When you run `npm run buildDev`, Javascript, HTML, and CSS files are unminified and not uglified, meaning that you can easily inspect them in Chrome Dev Tools. Hot Module Reloading is enabled via `webpack-dev-middleware` and `webpack-hot-middleware`. 
 
@@ -10,12 +10,12 @@ When you run `npm run buildProd`, Javascript, HTML, and CSS files are all minifi
 
 ## Google App Engine Flex Deployment
 
-Expack can be deployed directly to Google App Engine Flex with the command `npm run deploy`. **IMPORTANT:** Currently `app.yaml` is configured to use minimal resources to save on cost, which is great for development but terrible for production. Please review and update `app.yaml` to suit your own needs.
+Texpack can be deployed directly to Google App Engine Flex with the command `npm run deploy`. **IMPORTANT:** Currently `app.yaml` is configured to use minimal resources to save on cost, which is great for development but terrible for production. Please review and update `app.yaml` to suit your own needs.
 
 ## Installation & Usage
 
-    git clone https://github.com/bengrunfeld/expack.git
-    cd expack
+    git clone https://github.com/bengrunfeld/texpack.git
+    cd texpack
     npm install
     
     npm run buildDev        // for development
